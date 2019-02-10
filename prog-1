@@ -1,0 +1,17 @@
+// created by : Mohamed-abdelmuneim 
+// student at Communication Eng
+// University Of Ninava 
+#include <stdio.h>
+
+void main ()
+{
+HellowFunction();
+}
+
+
+void HellowFunction () {
+    char name[]="person";
+    printf("Enter you name here : ");
+    scanf("%s",&name);
+    printf("Welcome %s to my first program on Github . ",name);
+}
